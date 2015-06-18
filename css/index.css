@@ -1,0 +1,25 @@
+@charset "utf-8";
+body{font-size:12px; font-family:"Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";-webkit-text-size-adjust:none;}
+a{ text-decoration:none; }
+ul,li,p,h1,h2,h3,h4,h5,dl,dt,dd,body{ padding:0; margin:0;}
+ul,li{ list-style:none;}
+img{border:0;}
+input{ margin:0; padding:0; border-radius:0; border:0;}
+
+.cle:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.cle{zoom:1;}
+body { background: #292D2E; }
+.hand { width: 190px; height: 300px; background: url(../images/hand.png) no-repeat; position: absolute; top: 50px; left: 50%; margin-left: -95px;-webkit-animation: hand_move infinite 1s;animation: hand_move infinite 1s;}
+ @keyframes hand_move {
+0% {transform: rotate(0);}
+50% {transform: rotate(15deg);}
+100% {transform: rotate(0);}
+}
+ @-webkit-keyframes hand_move {
+0% {-webkit-transform: rotate(0);}
+50% {-webkit-transform: rotate(15deg);}
+100% {-webkit-transform: rotate(0);}
+}
+.msg{position:absolute;width:90%;left:5%;bottom:150px;color:#fff;font-size:14px;}
+.botton{font-size:16px;width:80%;height:50px;line-height:50px;position:absolute;left:10%;bottom:50px;color:#fff;text-align:center;background:#000;background-image: linear-gradient(rgb(142, 240, 40), rgb(38, 140, 40));background-image: -webkit-linear-gradient(rgb(142, 240, 40), rgb(38, 140, 40));cursor:pointer;border-radius:10px;}
+.botton i,.botton em{font-style:normal;}
