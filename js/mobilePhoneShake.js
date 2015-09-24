@@ -1,3 +1,8 @@
+/**
+ * mobilePhoneShake
+ * https://github.com/zhouxitian/mobilePhoneShake.js
+ * author:zhouxitian@163.com
+ */
 ;(function(window){
 	var F={
 		addEvent:function(o,t,f,c){
